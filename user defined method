@@ -1,0 +1,13 @@
+class MyClass
+{
+	static void myMethod(String str)
+	{
+		System.out.println(str + " course ");
+	}
+		public static void main(String[] args)
+        {
+	        myMethod("java");
+		myMethod("c++");
+		myMethod("c");
+	}
+}
