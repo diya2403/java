@@ -1,0 +1,20 @@
+import java. util. Scanner;
+class Check{
+    public static void main(String args[]){
+        int i, n;
+		i=2;
+        Scanner s=new Scanner(System.in);
+        n=s.nextInt();
+		while(i<=n-1)
+        {
+            if(n%i==0)
+            {
+                System.out.println ("not prime number" );
+                break;
+            }
+            i=i+1;
+        }
+        if(i==n)
+	       System.out.println("prime number" );
+    }
+}
