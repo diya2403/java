@@ -1,0 +1,15 @@
+class test { 
+public static void main(String args[]){
+    int i, no=8;
+    System.out.println("series are");
+    for(i=0;i<no;i++)
+    System.out.println(fib(i)+" ");
+   } 
+   static int fib (int n) 
+   {
+       if(n<=1)
+       return n;
+       else
+       return(fib(n-1)+fib(n-2));
+   }
+}
