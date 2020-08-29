@@ -15,5 +15,7 @@ class conversion
 
 		System.out.println(minutes + " minutes is " + year + " years and "  +  remainingMinutes + " days ");
     }
-
-}
+    }
+output is:-
+Enter the number of minutes:
+100000 minutes is 0 years and 69 days  
